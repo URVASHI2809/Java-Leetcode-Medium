@@ -45,7 +45,6 @@ class DisplaySinglyLinkedList {
 }
 
 class Outcome {
-    
     public static int checkPalindrome(SinglyLinkedList list) {
         if (list.head == null || list.head.next == null) {
             return 1;
