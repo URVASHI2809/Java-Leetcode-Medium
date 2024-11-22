@@ -1,3 +1,4 @@
+//traversing the 2d matrix diagonaly
 public class DiagonalTraverse {
         public int[] findDiagonalOrder(int[][] mat) {
             int n = mat.length; // Number of rows
