@@ -56,3 +56,4 @@ public class CanChange {
         System.out.println("Test case 2: " + solution.canChange(start, target)); // Expected: false
     }
 }
+
