@@ -34,9 +34,5 @@ public class FindChampionII {
         // Test case 2
         int[][] edges2 = {{0, 2}, {1, 3}, {1, 2}};
         System.out.println(champion.findChampion(4, edges2));  // Output: -1
-
-        // Test case 3
-        int[][] edges3 = {{0, 1}, {2, 1}, {3, 1}};
-        System.out.println(champion.findChampion(4, edges3));  // Output: 0
     }
 }
