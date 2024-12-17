@@ -20,7 +20,6 @@ public class MaximumLength {
             int[] oc = new int[26];
             int count = 1;
             char prev = '.';
-
             for (int i = 0; i < ch.length; i++) {
                 if (ch[i] != prev) {
                     prev = ch[i];
