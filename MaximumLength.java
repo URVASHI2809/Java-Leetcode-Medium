@@ -36,7 +36,6 @@ public class MaximumLength {
 
         public static void main(String[] args) {
             MaximumLength solution = new MaximumLength();
-
             // Example 1
             String input1 = "aaaa";
             System.out.println("Test 1: " + solution.maximumLength(input1));  // Output: 2
