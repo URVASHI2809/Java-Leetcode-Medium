@@ -13,8 +13,7 @@ class CountGoodStrings {
                     dp[i + one] = (dp[i + one] + dp[i]) % mod;
                 }
             }
-        }
-      
+        }  
         int result = 0;
         for (int i = low; i <= high; i++) {
             result = (result + dp[i]) % mod;
