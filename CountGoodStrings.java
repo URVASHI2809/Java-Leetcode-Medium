@@ -14,6 +14,7 @@ class CountGoodStrings {
                 }
             }
         }  
+        
         int result = 0;
         for (int i = low; i <= high; i++) {
             result = (result + dp[i]) % mod;
