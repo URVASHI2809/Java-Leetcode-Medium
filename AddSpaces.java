@@ -24,6 +24,6 @@ class AddSpaces {
         String s = "LeetcodeHelpsMeLearn";
         int[] spaces = {8,13,15};
         String result = space.addSpaces(s, spaces);
-        System.out.println(result);  // Expected Output: "Leetcode Helps Me Learn"
+        System.out.println(result);
     }
 }
