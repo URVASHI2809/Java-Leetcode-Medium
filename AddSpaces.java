@@ -6,7 +6,6 @@ class AddSpaces {
         char[] sChr = s.toCharArray();
 
         int i = 0, idx = 0;
-
         for (int spc : spaces) {
             while (i < spc) {
                 newChrs[idx++] = sChr[i++];
