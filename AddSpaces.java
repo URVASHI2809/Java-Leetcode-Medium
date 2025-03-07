@@ -17,7 +17,6 @@ class AddSpaces {
         }
         return new String(newChrs);
     }
-
     public static void main(String[] args) {
         AddSpaces space = new AddSpaces();
         String s = "LeetcodeHelpsMeLearn";
