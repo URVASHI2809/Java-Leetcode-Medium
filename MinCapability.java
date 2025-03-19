@@ -18,7 +18,6 @@ class MinCapability {
                     max++;
                 }
             }
-
             if(max >= k){
                 hi = mid - 1;
                 ans = mid;
