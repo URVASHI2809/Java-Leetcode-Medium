@@ -1,7 +1,6 @@
 class CheckValidCuts {
     public boolean helper(int[][] recs,int axis){
         Arrays.sort(recs,(a,b)->a[axis]-b[axis]);
-        //int prevs = recs[0][axis];
         int preve = recs[0][axis+2];
         int n = recs.length;
         int cnt = 0;
