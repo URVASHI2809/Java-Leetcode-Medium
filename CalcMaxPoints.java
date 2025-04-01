@@ -6,7 +6,6 @@ class CalcMaxPoints {
         int newIndex = index + questions[index][1] + 1;
         if (newIndex < n) take += calcMaxPoints(questions, index + questions[index][1] + 1, n, dp);
         long notTake = calcMaxPoints(questions, index + 1, n, dp);
-
         return dp[index] = Math.max(take, notTake);
     }
     static {
