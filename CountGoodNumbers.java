@@ -12,7 +12,6 @@ class CountGoodNumbers {
         }
         return result;
     }
-
     public int countGoodNumbers(long n) {
         long evens = (n + 1) / 2;
         long odds = n / 2;
