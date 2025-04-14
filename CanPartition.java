@@ -14,7 +14,6 @@ class CanPartition {
        
         return memo[s] = canPartition(memo, s - nums[index], index - 1, nums) || canPartition(memo, s, index - 1, nums);
     }
-
     public boolean canPartition(int[] nums) {
         int s = 0;
         for (int i = 0; i < nums.length; i++)
