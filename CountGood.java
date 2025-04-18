@@ -13,7 +13,6 @@ public class CountGood {
                 if (++right == nums.length) {
                     break;
                 }
-          
                 Integer num = nums[right];
                 Integer count = countMap.get(num);
                 if (count == null) {
